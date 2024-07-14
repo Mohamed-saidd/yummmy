@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+img {
+  width: 100%;
+}
+.items {
+  cursor: pointer;
+}
+.meal-layer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 100%;
+  transition: 0.5s;
+}
+.col-md-3:hover .meal-layer {
+  top: 0;
+  transition: 0.5s;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  z-index: 10;
+}
+.sidenav {
+  position: fixed;
+  height: 100%;
+  width: 270px;
+  z-index: 1000;
+}
+.click {
+  height: 100%;
+  width: 70px;
+  background-color: white;
+  position: relative;
+}
+.info {
+  width: 200px;
+  height: 100%;
+
+  background-color: black;
+}
+.info li {
+  cursor: pointer;
+}
+.close-tab {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 35px;
+}
+.open-tab {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  cursor: pointer;
+}
+.areaa{
+  cursor: pointer;
+  color: white;
+}
